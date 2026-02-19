@@ -122,9 +122,21 @@ class CheckoutPage extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      const Text(
-                        'Pay with card',
-                        style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
+                      Container(
+                        width: double.infinity,
+                        alignment: Alignment.center,
+                        child: const Text(
+                          'مبروووك ',
+                          style: TextStyle(fontSize: 22, fontWeight: FontWeight.normal),
+                        ),
+                      ),
+                      Container(
+                        width: double.infinity,
+                        alignment: Alignment.center,
+                        child: const Text(
+                          'كوبون قسيمة شرائية ',
+                          style: TextStyle(fontSize: 18, fontWeight: FontWeight.normal),
+                        ),
                       ),
                       const SizedBox(height: 24),
                       // _buildLabel('Email'),
